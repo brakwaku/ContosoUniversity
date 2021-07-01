@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ContosoUniversity</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/headFooter.css">
+</head>
+<body style="width:100%;">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Contoso University</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        @*<li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>*@
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Students" asp-action="Index">Students</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Courses" asp-action="Index">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Instructors" asp-action="Index">Instructors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Departments" asp-action="Index">Departments</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer style="margin-top:100px;">
+        <div class="top-footer">
+            <div class="contact-info">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li>The Cool Streets</li>
+                    <li>ID - USA</li>
+                    <li>000-0000-000</li>
+                    <li>contoso@cu.edu</li>
+                </ul>
+            </div>
+            <div class="quick-link">
+                <h4>Quick Link</h4>
+                <ul>
+                    <li><a asp-area="" asp-controller="Home" asp-action="About">About Us</a></li>
+                    <li><a href="#Navegation">Navegation Bar</a></li>
+                    <li><a href="#updates">Updates</a></li>
+                </ul>
+            </div>
+            <div class="link-connect">
+                <h4>Connect</h4>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/logos/Linkdin.jpg" alt="UNI_BY Linkdin">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/logos/facebook.jpg" alt="Contoso University Facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/logos/Instagram.png" alt="Contoso University Instagram">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copy-right">
+                <h2>Contoso University &copy; @DateTime.Now.Year - Kwaku Appau-Nkansah</h2>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

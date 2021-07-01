@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto|Source+Sans+Pro&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
 
 body {
     margin: 0%;
@@ -26,7 +26,7 @@ body {
         color: #ffffff;
         border-radius: 5%;
         font-size: 45px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Monaco', sans-serif;
     }
 
 .news-info {
@@ -48,7 +48,7 @@ body {
 
     .news-info h2 {
         color: #4EB1DA;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Monaco', sans-serif;
     }
 
     .news-info p {
@@ -86,12 +86,12 @@ body {
         color: #ffffff;
         border-radius: 5%;
         font-size: 25px;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Monaco', sans-serif;
     }
 
 main #gallery-title {
     color: #4EB1DA;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Monaco', sans-serif;
     font-size: 45px;
     margin-left: 60px;
     margin-top: 65px;

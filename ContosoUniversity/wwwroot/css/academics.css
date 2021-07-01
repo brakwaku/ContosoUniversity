@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto|Source+Sans+Pro&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
 
 main {
     background-image: url("/images/universe.jpeg");
@@ -32,7 +32,7 @@ main {
 
     .news-info h2 {
         color: #4EB1DA;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Signika', sans-serif;
         text-align: center;
     }
 

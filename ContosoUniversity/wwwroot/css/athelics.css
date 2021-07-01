@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto|Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
 
 
 .front-image{
@@ -12,17 +12,16 @@
     grid-template-rows: repeat(3, auto);
 }
 
-.front-image h1{
-    grid-row: 2;
-    grid-column: 2;
-    margin: auto;
-    padding: 1em;
-    color: #ffffff;
-    border-radius: 5%;
-    font-size: 45px;
-    font-family: 'Open Sans', sans-serif;
-
-}
+    .front-image h1 {
+        grid-row: 2;
+        grid-column: 2;
+        margin: auto;
+        padding: 1em;
+        color: #ffffff;
+        border-radius: 5%;
+        font-size: 45px;
+        font-family: 'Signika', sans-serif;
+    }
 
 .sports-container{
     display: grid;
@@ -38,26 +37,24 @@
     margin: 10px;
 }
 
-#subjects h2{
-    color: #4EB1DA;
-    font-family: 'Source Sans Pro', sans-serif;
+    #subjects h2 {
+        color: #4EB1DA;
+        font-family: 'Signika', sans-serif;
+    }
 
-}
+    #subjects p {
+        font-family: 'Signika', sans-serif;
+        font-size: 15px;
+    }
 
-#subjects p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    
-}
-
-.picture-container{
+.picture-container {
     grid-column: 2/4;
     margin: 20px 20px 20px 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Signika', sans-serif;
     font-size: 15px;
 }
 #logo-sport img{
@@ -73,13 +70,12 @@
     justify-content: center;    
 }
 
-#logo-sport h2{
-    color: #4EB1DA;
-    font-family: 'Source Sans Pro', sans-serif;
-    margin-left: 20px;
-    font-size: 25px;
-
-}
+    #logo-sport h2 {
+        color: #4EB1DA;
+        font-family: 'Signika', sans-serif;
+        margin-left: 20px;
+        font-size: 25px;
+    }
 
 /*Grid for the pictures of sporst*/
 .pic-sport{
